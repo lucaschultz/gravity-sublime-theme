@@ -24,7 +24,7 @@
         "class": "title_bar",
         "settings": ["gravity_title_bar", "gravity_sidebar_header"],
         "fg": ["background", 174, 174, 174, 1.0],
-        "bg": ["background", 37, 37, 37, 1.0]
+        "bg": [63, 63, 63]
     },
 
     // ============================================================
@@ -46,7 +46,7 @@
         "layer0.tint": [32, 32, 32],
         "layer0.opacity": 1.0,
         "layer1.inner_margin": [0, 41, 0, 0],
-        "layer1.tint": [37, 37, 37],
+        "layer1.tint": [63, 63, 63],
         "layer1.texture": "Theme - Gravity/shared_assets/sidebar/sidebar_head.png",
         "layer1.opacity": 1.0
     },
@@ -411,10 +411,10 @@
         "layer0.opacity": 1.0,
         "layer1.inner_margin": [0, 1],
         "layer1.texture": "Theme - Gravity/shared_assets/tabs/tabset_bg.png",
-        "layer1.tint": [37, 37, 37],
+        "layer1.tint": [63, 63, 63],
         "layer1.opacity": 1.0,
         "tab_overlap": 1,
-        "tab_width": 300,
+        "tab_width": 250,
         "tab_min_width": 70,
         "tab_height": 41,
         "mouse_wheel_switch": false
@@ -458,7 +458,7 @@
         "layer0.tint": [32, 32, 32],
         "layer0.opacity": 1.0,
         "layer1.inner_margin": [1, 2],
-        "layer1.tint": [37, 37, 37],
+        "layer1.tint": [63, 63, 63],
         "layer1.texture": "Theme - Gravity/shared_assets/tabs/tab_inactive.png",
         "layer1.opacity": 1.0,
         "layer2.opacity": 0
@@ -571,7 +571,7 @@
         "class": "tab_close_button",
         "settings": ["gravity_highlight_color_blue"],
         "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
-        "layer1.tint": [9, 144, 187]
+        "layer1.tint": [20, 122, 255]
     },
     {
         // tab dirty button hover
@@ -590,7 +590,7 @@
         "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
         "attributes": ["hover"],
         "settings": ["gravity_highlight_color_blue"],
-        "layer0.tint": [9, 144, 187],
+        "layer0.tint": [20, 122, 255],
         "layer0.opacity": 1.0
     },
     {
