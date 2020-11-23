@@ -689,9 +689,9 @@
         // quick panel - label (text)
         "class": "quick_panel_label",
         "fg": [150, 150, 150],
-        "match_fg": [59, 166, 219], // highlight
+        "match_fg": [31, 119, 253], // highlight
         "selected_fg": [255, 255, 255],
-        "selected_match_fg": [92, 195, 246] // color change while typing
+        "selected_match_fg": [31, 119, 253] // color change while typing
     },
     {
         // quick panel - path label (text)
